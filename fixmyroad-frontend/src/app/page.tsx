@@ -1,7 +1,6 @@
 import { CTASection } from "./(home)/components/CTASection";
 import { FeaturesSection } from "./(home)/components/FeatureSection";
 import HeroSection from "./(home)/components/HeroSection";
-import { HowItWorksSection } from "./(home)/components/HowItWorksSection";
 import { TestimonialsSection } from "./(home)/components/TestimonialsSection";
 export default function Home() {
   return (

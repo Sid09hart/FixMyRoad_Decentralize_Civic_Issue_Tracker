@@ -37,7 +37,7 @@ export function TestimonialsSection() {
           What Our Users Say
         </h2>
         <p className="text-lg text-zinc-400 mb-16 max-w-2xl mx-auto">
-          Real feedback from citizens who’ve made their roads safer with FixMyRoad.
+          Real feedback from citizens who have made their roads safer with FixMyRoad.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
