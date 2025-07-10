@@ -11,14 +11,14 @@ export default function LoginPage() {
   const router = useRouter();
   const { login } = useAuth();  // Use the login function from context
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: any) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   "use client";
 
 // Inside LoginPage
-const handleSubmit = async (e: React.ChangeEvent<HTMLInputElement>) => {
+const handleSubmit = async (e: any) => {
   e.preventDefault();
   try {
     const res = await api.post("/api/auth/login", form);
