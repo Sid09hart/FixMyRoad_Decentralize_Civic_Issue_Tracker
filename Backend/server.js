@@ -19,7 +19,9 @@ console.log("✅ CLOUDINARY SECRET:", process.env.CLOUDINARY_API_SECRET ? "✅" 
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:3001", // frontend URL
+    // origin: "http://localhost:3001", // frontend URL
+    origin: "https://fix-my-road-decentralize-civic-issu.vercel.app"
+ , // frontend URL
     credentials: true,
   }));
 app.use(express.json());
