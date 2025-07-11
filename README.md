@@ -10,7 +10,7 @@ FixMyRoad is a modern civic-tech platform that empowers citizens to report potho
 
 ## 🚀 Live Demo
 
-👉 [View Live App](fix-my-road-decentralize-civic-issue-tr-siddharth-negi-projects.vercel.app)
+👉 [View Live App](fix-my-road-decentralize-civic-issu.vercel.app)
 
 ---
 
